@@ -18,7 +18,7 @@ def generate_html(directories):
         f.write('       nav a {display: inline-block; color: black; text-decoration: none; padding: 14px 16px; transition-duration: 0.3s;}\n')
         f.write('       nav a:hover {background-color: #ddd;}\n')
         f.write('       section {margin-bottom: 50px;}\n')
-        f.write('       .image-container img {width: auto; height: 500px; object-fit: contain; border-radius: 5px; box-shadow: 0 0 10px rgba(0,0,0,.1); display: block; margin-left: auto; margin-right: auto;}\n')
+        f.write('       .image-container img {width: auto; height: 500px; object-fit: contain; border-radius: 30px; box-shadow: 0 0 30px rgba(0,0,0,.1); display: block; margin-left: auto; margin-right: auto;}\n')
         f.write('       .image-container h3 {text-align: center; color: #333; padding-top: 10px;}\n')
         f.write('   </style>\n')
         f.write('</head>\n')
