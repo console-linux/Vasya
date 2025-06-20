@@ -1,7 +1,7 @@
 import os
 
 # Список директорий, из которых мы собираемся извлекать контент
-directories = ['data/животные', 'data/растения', 'data/смешарики']
+directories = ['data/звёздные войны', 'data/смешарики']
 output_html_file = 'index.html'
 
 def generate_html(directories):
